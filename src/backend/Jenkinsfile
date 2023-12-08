@@ -1,3 +1,3 @@
 #!/usr/bin/env groovy
 @Library('devops-jenkins-ci@main') _
-nodeJSPipeline("backend") script: this
+nodeJSPipeline "backend"
