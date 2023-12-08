@@ -1,4 +1,4 @@
 #!/usr/bin/env groovy
-properties([parameters([choice(choices: ['backend', 'frontend'], description: "Project Build", name: 'PROJECT')])])
+
 @Library('devops-jenkins-ci@main') _
 nodeJSPipeline script: this
