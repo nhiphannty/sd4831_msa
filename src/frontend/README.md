@@ -25,3 +25,5 @@ CMD ["npm", "start"]
 ##### Explanation of frontend(ReactJS) `DockerFile`
 
 Frontend `DockerFile` is almost the same as Backend `DockerFile`.
+
+Test pipeline triggering
